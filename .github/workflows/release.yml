@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: conventional Changelog on: 
+      - name: conventional Changelog
         id: changelog
         uses: TriPSs/conventional-changelog-action@v3.7.1
         with:
